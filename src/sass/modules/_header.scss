@@ -1,0 +1,25 @@
+
+.navbar-divider {
+    border: 1.5px solid black;
+    height: 100px;
+    width: 0;
+}  
+
+.contact:hover{
+    color: white;
+    background-color: purple;
+    padding: 80px;
+}
+.contact{
+    padding: 80px;
+}
+.bodypic{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.5);
+    clip-path: polygon(0 0, 100% 0, 100% 99%, 0 100%);
+    object-fit: cover;
+}
